@@ -8,8 +8,12 @@ List packages of a given SUSE product
    $ python3 -m venv ./venv
    $ source venv/bin/activate
    ```
+   **Hint:** You could leave the venv via:
+   ```shell
+   (venv)$ deactivate
+   ```
 
-2. Install required dependencies:
+3. Install required dependencies:
    ```shell
    $ cd <my-project-dir>
    $ pip3 install -r requirements.txt
