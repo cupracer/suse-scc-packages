@@ -13,7 +13,7 @@ List packages of a given SUSE product
    (venv)$ deactivate
    ```
 
-3. Install required dependencies:
+2. Install required dependencies:
    ```shell
    $ cd <my-project-dir>
    $ pip3 install -r requirements.txt
